@@ -31,7 +31,7 @@ Application web simple de collecte d'avis des étudiants sur le bâtiment de l'I
 
 ## 🛠️ Technologies utilisées
 
-- **PHP 7.4+** avec extension MongoDB
+- **PHP 8.3.28+** avec extension MongoDB
 - **MongoDB** (base de données NoSQL)
 - **WAMP Server** (environnement de développement local)
 - **HTML5 / CSS3** - design responsive
@@ -64,7 +64,7 @@ SURVEY/
 ## 🔧 Installation
 
 ### Prérequis
-1. **WAMP** installé avec PHP 7.4+
+1. **WAMP** installé avec PHP 8.3.28+
 2. **MongoDB** installé et lancé (`mongod`)
 3. **Composer** installé
 
@@ -125,7 +125,7 @@ Projet éducatif - Libre d'utilisation pour l'apprentissage
 ---
 
 **Exercice réalisé à l'ISIG Goma (Institut Supérieur d'Informatique et de Gestion de Goma)**  
-*Cours : Développement Web - Base de données NoSQL*
+*Cours : Développement Web*
 
 ---
 
