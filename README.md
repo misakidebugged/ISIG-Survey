@@ -13,7 +13,7 @@ Application web simple de collecte d'avis des étudiants sur le bâtiment de l'I
 *Formulaire de sondage - cafétéria, satisfaction et recommandations*
 
 ### Affichage des avis soumis
-![Avis précédents](media/images/PreviousFeeback.png)
+![Avis précédents](media/images/PreviousFeedback.png)
 *Liste des avis déjà soumis avec options de modification/suppression*
 
 ### Données dans MongoDB
