@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e0f2fe;  /* light blue */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 30px;
+}
+
+h1, h2 {
+    color: #0369a1;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #0c4a6e;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b0c4de;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f0f9ff;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button, .btn {
+    background-color: #0284c7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.2s;
+}
+
+button:hover, .btn:hover {
+    background-color: #0369a1;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.survey-list {
+    margin-top: 30px;
+}
+
+.survey-item {
+    background-color: #f0f9ff;
+    border: 1px solid #b0c4de;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.survey-item p {
+    margin: 5px 0;
+    color: #0c4a6e;
+}
+
+.survey-actions {
+    margin-top: 10px;
+}
+
+.survey-actions button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+#logoutBtn {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#loginSection, #surveySection {
+    transition: all 0.3s;
+}
+
+#message {
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
+
+#message.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    display: block;
+}
+
+#message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    display: block;
+}

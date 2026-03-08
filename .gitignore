@@ -1,0 +1,14 @@
+# Composer
+/vendor/
+composer.lock
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
